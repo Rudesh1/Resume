@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Left Panel */
+.left-panel {
+    background-color: #0B75C9;
+    color: #fff;
+    padding: 20px;
+    width: 30%;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+h2, h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact, .education, .languages {
+    margin-bottom: 20px;
+
+}
+
+.contact p, .education p, .languages p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Right Panel */
+.right-panel {
+    width: 70%;
+    padding: 20px;
+}
+
+h4 {
+    color: #0B75C9;
+    margin-bottom: 10px;
+}
+
+.objective, .research, .projects, .skills {
+    margin-bottom: 20px;
+}
+
+.projects ul, .research ul {
+    list-style-type: none;
+}
+
+.projects li, .research li {
+    margin-bottom: 10px;
+}
+
+/* Skills & Proficiency */
+.skills {
+    margin-top: 20px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.level {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 15px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.level-bar {
+    height: 100%;
+    background-color: #0B75C9;
+    border-radius: 20px;
+}
